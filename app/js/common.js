@@ -42,8 +42,24 @@ $(function() {
         
     });
 
+    /* Toggle button for menu*/
     
-    //***************************************
+        $(".toggle-mnu").click(function() {
+            $(this).toggleClass("on");
+            if($(this).hasClass("on")){
+                $(".ah-header-topline-list").animate({left: '0px'}, 600);
+            }else{
+                $(".ah-header-topline-list").animate({left: '-60%'}, 600);
+            }
+            return false;
+        });
 
-    
+    /* Toggle button for menu*/
+
+    /* Select */
+    $('#select-beast').selectize({
+        create: true,
+        sortField: 'text'
+    });
+
 });
