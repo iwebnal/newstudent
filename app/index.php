@@ -32,7 +32,10 @@
 
 <body>
 	<?php require_once('includes/header.php'); ?>
-	
+	<?php require_once('includes/zakazbox.php'); ?>
+	<?php require_once('includes/companybox.php'); ?>
+	<?php require_once('includes/ourwork.php'); ?>
+	<?php require_once('includes/slide.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	<div class="hidden">

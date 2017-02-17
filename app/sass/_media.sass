@@ -43,11 +43,298 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
+	.arrow-left
+		left: -25px
+	.arrow-right
+		right: -25px
+	.ah-sliderbox-text
+		font-size: 20px
+	.ah-ourwork-item
+		width: 20%
+	.ah-ourwork-imgbox
+		background: url(../img/work_arr.png) right center no-repeat
+	.ah-trapecibox1, .ah-trapecibox2, .ah-trapecibox3, .ah-trapecibox4, .ah-trapecibox5
+		width: 20%
+		padding: 10px 0px 0px 0px
+		margin-bottom: 0px
+	.ah-trapecibox1
+		display: inline-block
+		height: 154px
+		top: -5px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden // for Chrome Windows
+		&:before 
+			top: 0
+			transform: skewY(3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -9px
+			transform: skewY(-3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox2
+		display: inline-block
+		height: 154px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden // for Chrome Windows
+		&:before 
+			top: -14px
+			transform: skewY(-3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -13px
+			transform: skewY(3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox3
+		display: inline-block
+		height: 165px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden // for Chrome Windows
+		&:before 
+			top: -23px
+			transform: skewY(-3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -11px
+			transform: skewY(3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox4
+		display: inline-block
+		height: 146px
+		top: 79px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden // for Chrome Windows
+		&:before 
+			top: -2px
+			transform: skewY(6.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -51px
+			transform: skewY(6.5deg)
+			transform-origin: 100%
+	.ah-trapecibox5
+		display: inline-block
+		height: 165px
+		top: 32px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden // for Chrome Windows
+		&:before 
+			top: -27px
+			transform: skewY(-6.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -7px
+			transform: skewY(-6.5deg)
+			transform-origin: 100%
+	.ah-zakazbox-item
+		width: 50%
+		margin-bottom: 0px
+	.ah-zakazbox-titlefirst
+		font-size: 40px
+	.ah-formsection-text
+		font-size: 35px
+		span
+			font-size: 35px
+	.ah-city-box2-link
+		font-size: 17px
+	.ah-form1
+		.selectize-control
+			display: inline-block
+			margin-bottom: 0px
+		.selectize-input
+			width: 253px !important
+		input[type="text"]
+			width: 254px
+			display: inline-block
+			margin-bottom: 0px
+		input[type="submit"]
+			display: inline-block
+	.ah-header-topline-list
+		left: -60%
+		height: 100%
+		position: fixed
+		width: 60%
+		background: #252525
+		z-index: 9999
+	.ah-header-midinfo
+		margin-top: 0px
+		text-align: left
 	
 	/**/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	.ah-header-logobox
+		padding-top: 7px
+		width: 100%
+		margin: 0
+	.ah-trapec-span
+		font-size: 50px
+	.ah-trapecibox1
+		display: inline-block
+		height: 154px
+		top: 0
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: 0
+			transform: skewY(3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: 0
+			transform: skewY(-3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox2
+		display: inline-block
+		height: 154px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -14px
+			transform: skewY(-3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -13px
+			transform: skewY(3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox3
+		display: inline-block
+		height: 165px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -28px
+			transform: skewY(-3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -16px
+			transform: skewY(3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox4
+		display: inline-block
+		height: 146px
+		top: 28px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -2px
+			transform: skewY(6.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -61px
+			transform: skewY(6.5deg)
+			transform-origin: 100%
+	.ah-trapecibox5
+		display: inline-block
+		height: 165px
+		top: 0
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -27px
+			transform: skewY(-6.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -16px
+			transform: skewY(-6.5deg)
+			transform-origin: 100%
+	.ah-zakazbox-days, .ah-zakazbox-price
+		margin-left: 10px
+	.ah-zakazbox-item
+		width: 19%
+		margin-right: 11px
+	.ah-formsection-text
+		margin-bottom: 35px
+	.ah-header-formsection
+		height: 752px
+		padding: 275px 0px 25px 0px
+	.ah-midinfo-link
+		padding: 13px 52px
+	.ah-midinfo-tel
+		font-size: 28px
+	.ah-midinfo-span
+	.ah-citywrapp
+		padding-top: 15px
+		margin-top: 0px
 	.ah-header-topline-list
 		left: 0px
 		height: auto

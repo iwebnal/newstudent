@@ -22,21 +22,21 @@ $(function() {
 
     //***************************************
     
-     $('.ah-block2').owlCarousel({
+     $('.ah-block').owlCarousel({
         loop: true,
         margin:0,
         nav: true,
         dots: true,
-        navText:['<span class="arrow-left2"></span>','<span class="arrow-right2"></span>'],
+        navText:['<span class="arrow-left"></span>','<span class="arrow-right"></span>'],
         responsive:{
             0:{
                 items:1
             },
             600:{
-                items:4
+                items:3
             },
             1000:{
-                items:5
+                items:3
             }
         }
         
