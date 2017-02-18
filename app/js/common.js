@@ -62,4 +62,46 @@ $(function() {
         sortField: 'text'
     });
 
+    $('#ah-banerbox-select').selectize({
+        create: true,
+        sortField: 'text'
+    });
+
+    $('#ah-banerbox-select1').selectize({
+        create: true,
+        sortField: 'text'
+    });
+    /* Select */
+
+
+    //************ Up-button *****************************
+    if(window.matchMedia('(min-width: 992px)').matches){
+
+        $(document).scroll(function(){
+            var my_scroll = $("body").scrollTop();
+            if(my_scroll >200){
+                $('.ah-up').fadeIn(0);
+            }else{
+                $('.ah-up').fadeOut(0);
+            }
+            
+        });
+
+    }
+
+    $('.ah-up').click(function(){
+        var body = $("html, body");
+
+        body.stop().animate({scrollTop:0}, '500', 'swing');
+        return false;
+    });
+
+    //************ Up-button *****************************
+
+
+    $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
+
+
+
+
 });
