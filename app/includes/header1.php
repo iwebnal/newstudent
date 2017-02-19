@@ -2,7 +2,7 @@
     <div class="container">
 		<div class="row">
 		    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
-		    	<a href="#" class="toggle-mnu hidden-lg hidden-md"><span></span></a>
+		    	<a href="#" class="toggle-mnu hidden-lg"><span></span></a>
 				<ul class="ah-header-topline-list ah-header-topline-list1">
 					<li><a href="#">Главная</a></li>
 					<li><a href="#">Расчёт стоимости</a></li>

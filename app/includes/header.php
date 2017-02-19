@@ -2,7 +2,7 @@
     <div class="container">
 		<div class="row">
 		    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
-		    	<a href="#" class="toggle-mnu hidden-lg hidden-md"><span></span></a>
+		    	<a href="#" class="toggle-mnu hidden-lg"><span></span></a>
 				<ul class="ah-header-topline-list">
 					<li><a href="#">Главная</a></li>
 					<li><a href="#">О компании</a></li>
@@ -26,7 +26,7 @@
     <div class="container">
     	<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-				<div class="ah-header-logobox">
+				<div class="ah-header-logobox ah-header-logobox111">
 					<a href="/"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 				<div class="ah-header-midinfo">
 					<span class="ah-midinfo-span ah-midinfo-span1">Бесплатный звонок по России</span>
 					<a href="tel:88003338055" class="ah-midinfo-tel ah-midinfo-tel1">8 800 333-80-55</a>
-					<a href="#" class="ah-midinfo-link ah-midinfo-link1">Заказать звонок</a>
+					<a href="#small-dialog" class="popup-with-zoom-anim ah-midinfo-link ah-midinfo-link1">Заказать звонок</a>
 				</div>
 			</div>
 		</div>

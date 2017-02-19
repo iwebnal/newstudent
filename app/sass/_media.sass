@@ -43,6 +43,35 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
+	.ah-banerbox-top
+		text-align: left
+	.ah-footerbox
+		text-align: left
+	.ah-banerbox1
+		text-align: left
+	.ah-header-logobox
+		margin: 0
+	.ah-tabs-toplist
+		text-align: left
+	.ah-tabs-toplist1
+		text-align: left
+		margin-top: 0px
+		li
+			display: block
+			a
+				font-family: "Exo2-Regular", sans-serif
+				color: #808080
+				font-size: 16px
+				line-height: 29px
+				text-decoration: none
+	.tabs-navigation
+		li
+			display: inline-block
+			margin-right: 5px
+			a
+				display: inline-block
+				padding: 17px 15px
+				line-height: 28px
 	.ah-banerbox-form
 			p
 				margin-top: 68px
@@ -64,6 +93,7 @@
 		font-size: 24px !important
 		text-align: center
 	.ah-footerbox-contacts
+		float: left
 		margin: 0 250px
 		margin-top: 20px
 	.ah-footerbox-item
@@ -139,7 +169,7 @@
 			position: absolute
 			right: 0
 			z-index: -1
-			-webkit-backface-visibility: hidden // for Chrome Windows
+			-webkit-backface-visibility: hidden
 		&:before 
 			top: -23px
 			transform: skewY(-3.5deg)
@@ -230,6 +260,16 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	.ah-banerbox-city
+		padding-left: 10px
+	.tabs-navigation
+		li
+			margin-right: 25px
+			a
+				display: inline-block
+				padding: 17px 35px
+				font-size: 16px
+				line-height: 28px
 	.ah-banerbox-fon
 		min-height: 615px
 	.ah-banerbox-wrapp
@@ -261,15 +301,140 @@
 		font-size: 28px
 	.ah-footerbox-contacts
 		float: right
-		text-align: left
-		margin: 0
-		margin-top: 0px
+		margin: 20px 80px 0
 	.ah-header-logobox
 		padding-top: 7px
 		width: 100%
 		margin: 0
 	.ah-trapec-span
 		font-size: 50px
+	.ah-trapecibox1
+		display: inline-block
+		height: 154px
+		top: 0
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -4px
+			transform: skewY(3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -4px
+			transform: skewY(-3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox2
+		display: inline-block
+		height: 154px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -15px
+			transform: skewY(-3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -16px
+			transform: skewY(3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox3
+		display: inline-block
+		height: 165px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -27px
+			transform: skewY(-3.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -15px
+			transform: skewY(3.5deg)
+			transform-origin: 100%
+	.ah-trapecibox4
+		display: inline-block
+		height: 146px
+		top: 57px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -6px
+			transform: skewY(6.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -54px
+			transform: skewY(6.5deg)
+			transform-origin: 100%
+	.ah-trapecibox5
+		display: inline-block
+		height: 165px
+		top: 1px
+		&::before, &::after
+			background: inherit
+			content: ''
+			display: block
+			height: 50%
+			left: 0
+			position: absolute
+			right: 0
+			z-index: -1
+			-webkit-backface-visibility: hidden
+		&:before 
+			top: -27px
+			transform: skewY(-6.5deg)
+			transform-origin: 100% 0
+		&:after 
+			bottom: -13px
+			transform: skewY(-6.5deg)
+			transform-origin: 100%
+	.ah-zakazbox-days, .ah-zakazbox-price
+		margin-left: 10px
+	.ah-zakazbox-item
+		height: auto
+		width: 19%
+		margin-right: 11px
+	.ah-formsection-text
+		margin-bottom: 35px
+	.ah-header-formsection
+		height: 752px
+		padding: 275px 0px 25px 0px
+	.ah-midinfo-link
+		padding: 13px 52px
+	.ah-citywrapp
+		padding-top: 15px
+		margin-top: 0px
+	/**/
+
+@media only screen and (min-width : 1200px)
 	.ah-trapecibox1
 		display: inline-block
 		height: 154px
@@ -379,20 +544,20 @@
 			transform: skewY(-6.5deg)
 			transform-origin: 100%
 	.ah-zakazbox-days, .ah-zakazbox-price
-		margin-left: 10px
+		font-size: 22px
+	.ah-zakazbox-title
+		font-size: 22px
 	.ah-zakazbox-item
-		width: 19%
-		margin-right: 11px
-	.ah-formsection-text
-		margin-bottom: 35px
-	.ah-header-formsection
-		height: 752px
-		padding: 275px 0px 25px 0px
-	.ah-midinfo-link
-		padding: 13px 52px
-	.ah-citywrapp
-		padding-top: 15px
+		height: auto
+	.ah-zakazbox-link
+		width: 194px
+	.ah-footerbox-contacts
+		float: right
+		text-align: left
+		margin: 0
 		margin-top: 0px
+	.ah-banerbox-city
+		padding-left: 35px
 	.ah-header-topline-list
 		left: 0px
 		height: auto
@@ -401,9 +566,6 @@
 		background: none
 		li
 			display: inline-block
-	/**/
-
-@media only screen and (min-width : 1200px)
 	.ah-banerbox-fon
 		min-height: 530px
 

@@ -10,6 +10,86 @@ ul
 body
 	overflow-x: hidden
 //********************************************************
+.ah-header-logobox111
+	width: 100% !important
+.ah-tabstext1
+	margin-top: 35px
+.tabs-container
+	margin-bottom: 70px
+.ah-tabs-toplist1
+	text-align: center
+	margin-top: 40px
+	li
+		display: block
+		a
+			font-family: "Exo2-Regular", sans-serif
+			color: #808080
+			font-size: 16px
+			line-height: 29px
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+				transition: text-decoration 0.6s ease 0s
+.ah-tabs-toplist
+	text-align: center
+	margin: 40px 0px
+	li
+		display: inline-block
+		margin-right: 25px
+		a
+			display: inline-block
+			font-family: "Exo2-Bold", sans-serif
+			color: #66308d
+			font-size: 16px
+			line-height: 23px
+.ah-tabs-title
+	display: block
+	font-family: "Exo2-SemiBold", sans-serif
+	color: #66308d
+	font-size: 30px
+	line-height: 43px
+	margin-top: 40px
+.ah-tabs-subtitle
+	display: block
+	font-family: "Exo2-Bold", sans-serif
+	font-size: 16px
+	color: #333
+	line-height: 23px
+	padding: 7px 10px
+	background: #f2f2f2
+	margin-bottom: 25px
+	margin-top: 40px
+.ah-tabs-text
+	display: block
+	font-family: "Exo2-Regular", sans-serif
+	font-size: 16px
+	color: #808080
+	line-height: 23px
+.tabs-navigation
+	li
+		display: block
+		list-style: none
+		margin-right: 0px
+		a
+			display: block
+			padding: 17px 15px
+			color: #66308d
+			font-family: "Exo2-Bold", sans-serif
+			font-size: 16px
+			line-height: 28px
+			text-decoration: none
+			border: 1px solid #66308d
+			background: transparent
+		&:last-child
+			margin-right: 0px
+.tabs-navigation li.selected a, .tabs-navigation li:hover a
+	color: #fff
+	background: #66308d
+	border: 1px solid transparent
+	transition: color, background 0.6s ease 0s
+
+/* Tabs */
+
 .ah-pageinfo-pagination
 	text-align: center
 	margin: 60px 0px
@@ -165,8 +245,6 @@ body
 		padding-left: 16px
 		margin-bottom: 15px
 	input[type="submit"]
-		// position: relative
-		// top: 42px
 		margin-top: 20px
 		display: inline-block
 		font-family: "Exo2-Regular", sans-serif
@@ -252,6 +330,8 @@ body
 		height: 100%
 		left: 0px
 		top: 0px
+.ah-banerbox1
+	text-align: center
 .ah-banerbox1-top
 	background: #f7f7f7
 	padding: 25px 0px 15px 0px
@@ -259,11 +339,12 @@ body
 	-moz-box-shadow: 0px 10px 8px 0px rgba(229, 228, 228, 1)
 	box-shadow: 0px 10px 8px 0px rgba(229, 228, 228, 1)
 .ah-banerbox-top
+	text-align: center
 	background: #fff
 	opacity: 0.8
 	padding: 25px 0px 15px 0px
 .ah-footerbox-contacts
-	float: left
+	float: none
 	text-align: center
 	margin: 0
 	margin-top: 0
@@ -271,7 +352,6 @@ body
 	background: #662d91
 	padding: 15px 0px
 	text-align: center
-	// margin-top: 20px
 .ah-footbottom-span
 	display: block
 	font-family: "Exo2-Light", sans-serif
@@ -280,6 +360,7 @@ body
 	line-height: 30px
 .ah-footerbox
 	padding: 30px 0px
+	text-align: center
 .ah-up
 	display: none
 	position: fixed
@@ -479,7 +560,7 @@ body
 		position: absolute
 		right: 0
 		z-index: -1
-		-webkit-backface-visibility: hidden // for Chrome Windows
+		-webkit-backface-visibility: hidden
 	&:before 
 		top: 0
 		transform: skewY(3.5deg)
@@ -500,7 +581,7 @@ body
 		position: absolute
 		right: 0
 		z-index: -1
-		-webkit-backface-visibility: hidden // for Chrome Windows
+		-webkit-backface-visibility: hidden
 	&:before 
 		top: -14px
 		transform: skewY(-3.5deg)
@@ -521,7 +602,7 @@ body
 		position: absolute
 		right: 0
 		z-index: -1
-		-webkit-backface-visibility: hidden // for Chrome Windows
+		-webkit-backface-visibility: hidden
 	&:before 
 		top: -23px
 		transform: skewY(-3.5deg)
@@ -543,7 +624,7 @@ body
 		position: absolute
 		right: 0
 		z-index: -1
-		-webkit-backface-visibility: hidden // for Chrome Windows
+		-webkit-backface-visibility: hidden
 	&:before 
 		top: -2px
 		transform: skewY(6.5deg)
@@ -565,7 +646,7 @@ body
 		position: absolute
 		right: 0
 		z-index: -1
-		-webkit-backface-visibility: hidden // for Chrome Windows
+		-webkit-backface-visibility: hidden
 	&:before 
 		top: -27px
 		transform: skewY(-6.5deg)
@@ -609,7 +690,7 @@ body
 	text-align: center
 .ah-zakazbox-link
 	display: block
-	width: 194px
+	width: 100%
 	height: 55px
 	background: #f60
 	color: #fff
@@ -628,6 +709,7 @@ body
 		transition: background, color 0.6s ease 0s
 .ah-zakazbox-item
 	display: block
+	height: auto
 	border: 1px solid #e7eaea
 	padding: 20px 0px
 	float: left
@@ -639,14 +721,14 @@ body
 	display: block
 	font-family: "Exo2-Medium", sans-serif
 	color: #202020
-	font-size: 22px
+	font-size: 18px
 	margin-top: 20px
 	text-align: center
 .ah-zakazbox-days, .ah-zakazbox-price
 	display: inline-block
 	font-family: "Exo2-Regular", sans-serif
 	color: #202020
-	font-size: 22px
+	font-size: 17px
 	line-height: 41px
 	padding-left: 45px
 	text-align: left
@@ -701,7 +783,6 @@ body
 	input[type="submit"]
 		display: inline-block
 		font-family: "Exo2-SemiBold", sans-serif
-		// height: 51px
 		padding: 14px 20px
 		color: #fff
 		font-size: 15px
